@@ -2,7 +2,7 @@ name: allure-report
 'on':
     push:
         branches:
-            - master
+            - test
 jobs:
     generate-report:
         runs-on: ubuntu-16.04
